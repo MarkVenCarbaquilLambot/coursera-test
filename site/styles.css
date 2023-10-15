@@ -16,8 +16,23 @@
 
 .rectangle {
 	border: 1px solid;
-	height: 50%;	
-	width: 40%;
+    height: 50%;
+    width: 50%;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.left {
+	border: 1px solid;
+	height: 100%;	
+	width: 50%;
+}
+
+.right {
+	border: 1px solid;
+	height: 100%;	
+	width: 50%;
+}
 
